@@ -1,0 +1,68 @@
+/************************ Mobile Style ********************/
+/****************************************************************/
+/****************************************************************/
+
+@media only screen and (max-width: 480px) {
+    
+    body {
+        font-size: 2vh;
+    }
+    
+    .logo_div{
+        margin-top: 4vh;
+    }
+    .logo_div button {
+        font-size: 2vh;
+        height: 5vh;
+        margin-right: 3vh;
+        margin-top: 2vh;
+        
+    }
+    
+    h1 {
+       font-weight: 800; 
+    }
+    
+    .txtbox_div{
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
+        
+    }
+    
+    .textbox_1 {
+        margin: 0;
+        width: 70%;
+        height: 25vh;
+        margin-bottom: 3vh;
+    }
+    
+    .textbox_2 {
+        margin:0;
+        width: 70%;
+        height: 25vh;
+    }
+    
+    .lower_butt_div button {
+        margin-top: 0;
+        height: 4vh;
+        font-size: 2vh;
+        width: 10vh;
+    }
+    
+    .username_div {
+        font-size: 2vh;
+        height: 4vh;
+    }
+    
+    .username_div p {
+        font-size: 2vh;
+        height: 4vh;
+        margin-top: 1vh;
+    }
+
+    #next_butt_id {	
+    	margin-top: 10vh;
+	}
+
+}
